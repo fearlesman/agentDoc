@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+pytest-cache-files-*/
 
 # Node
 node_modules/
@@ -17,3 +18,7 @@ data/exports/*
 # IDE
 .vscode/
 .idea/
+
+# uv local cache
+.uv-cache/
+
