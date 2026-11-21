@@ -11,7 +11,9 @@ dist/
 
 # Local data and secrets
 data/uploads/*
+!data/uploads/.gitkeep
 data/exports/*
+!data/exports/.gitkeep
 *.db
 .env
 
